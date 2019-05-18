@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>SpaceWalkers</title>
+
+    <link
+      href="https://fonts.googleapis.com/css?family=Russo+One|Ubuntu"
+      rel="stylesheet"
+    />
+    <link href="css/index.css" rel="stylesheet" />
+
+    <!--[if lt IE 9]>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+    <!-- navigation code here -->
+    <section class="navigation">
+      <div>
+        <h1>SpaceWalkers</h1>
+        <nav>
+          <a href="">Home</a>
+          <a href="">About Us</a>
+          <a href="">Blog</a>
+          <a href="">Contact</a>
+          <a href="">Sign In</a>
+        </nav>
+      </div>
+    </section>
+    <div class="container sign-up">
+      <section class="mag-form">
+        <form action="" method="get" class="magazine">
+          <div class="form-row">
+            <label for="full-name">Name</label>
+            <input id="full-name" name="full-name" type="text" />
+          </div>
+          <div class="form-row">
+            <label for="email">Email</label>
+            <input
+              id="email"
+              name="email"
+              type="email"
+              placeholder="you@youremail.com"
+            />
+          </div>
+          <fieldset class="form-row">
+            <legend>Would you like the magazine emailed?</legend>
+            <input
+              id="yes-email"
+              name="e-mag"
+              type="radio"
+              value="yes"
+              checked
+            />
+            <label for="yes-email" class="radio-label">Yes</label>
+            <input id="no-email" name="e-mag" type="radio" value="no" />
+            <label for="no-email" class="radio-label">No</label>
+          </fieldset>
+          <div class="form-row">
+            <label for="subscription">Subscription</label>
+            <select name="subscription" id="subscription">
+              <option value="1-mo">Single issue $6.00+shipping</option>
+              <option value="6-mo">Six-months $27, free shipping</option>
+              <option value="12-mo">One-year $40, free shipping</option>
+              <option value="24-mo"
+                >Two-year $60, free shipping PLUS exclusive travel mug!</option
+              >
+            </select>
+          </div>
+        </form>
+      </section>
+
+      <footer>
+        <p>Copyright SpaceWalkers 2018</p>
+      </footer>
+    </div>
+  </body>
+</html>
