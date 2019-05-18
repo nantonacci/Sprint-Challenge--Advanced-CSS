@@ -202,16 +202,48 @@ footer {
 .home .intro img {
   border-radius: 5px;
 }
+@media (max-width: 500px) {
+  .home .intro img {
+    width: 100%;
+  }
+}
 .home .intro h2 {
   padding: 15px;
 }
+@media (max-width: 500px) {
+  .home .intro h2 {
+    margin: 8px;
+    padding: 10px;
+  }
+}
 .home .intro p {
   padding: 0 15px;
+}
+@media (max-width: 500px) {
+  .home .intro {
+    padding: 2px;
+  }
 }
 .home .space-images {
   display: flex;
   flex-wrap: wrap;
   width: 100%;
+}
+@media (max-width: 500px) {
+  .home .space-images {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .home .space-images .blast {
+    width: 93%;
+  }
+  .home .space-images .sky {
+    display: none;
+  }
+  .home .space-images .launch {
+    display: none;
+  }
 }
 .home .space-images img {
   width: 28%;
@@ -235,11 +267,28 @@ footer {
   display: flex;
   justify-content: center;
 }
+@media (max-width: 500px) {
+  .home .walk {
+    margin-top: 25px;
+    padding: 15px;
+    flex-direction: column-reverse;
+  }
+}
 .home .walk .walk-text {
   width: 50%;
 }
+@media (max-width: 500px) {
+  .home .walk .walk-text {
+    width: 100%;
+  }
+}
 .home .walk .walk-text h3 {
   margin-bottom: 10px;
+}
+@media (max-width: 500px) {
+  .home .walk .walk-text h3 {
+    margin-top: 15px;
+  }
 }
 .home .walk .walk-text p {
   margin-bottom: 26px;
@@ -254,6 +303,18 @@ footer {
   width: 30%;
   padding: 8px;
 }
+@media (max-width: 500px) {
+  .home .walk .walk-text .btn {
+    background-color: #22283a;
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1.9rem;
+    border-radius: 5px;
+    text-align: center;
+    width: 100%;
+    padding: 25px;
+  }
+}
 .home .walk .walk-text .btn:hover {
   background-color: white;
   color: #22283a;
@@ -262,6 +323,12 @@ footer {
 .home .walk .walk-img {
   width: 46%;
   margin-left: 4%;
+}
+@media (max-width: 500px) {
+  .home .walk .walk-img {
+    width: 100%;
+    margin-left: 0%;
+  }
 }
 .home .walk .walk-img img {
   width: 100%;
