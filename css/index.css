@@ -303,6 +303,13 @@ footer {
   width: 30%;
   padding: 8px;
 }
+.home .walk .walk-text .btn a {
+  text-decoration: none;
+  color: white;
+}
+.home .walk .walk-text .btn a:hover {
+  color: #22283a;
+}
 @media (max-width: 500px) {
   .home .walk .walk-text .btn {
     background-color: #22283a;

@@ -92,6 +92,13 @@
       }
 
       .btn {
+        a {
+          text-decoration: none;
+          color: white;
+        }
+        a:hover {
+          color: @btn-bg-color;
+        }
         .button-style();
         @media @phone {
           .button-style(100%, 25px);
