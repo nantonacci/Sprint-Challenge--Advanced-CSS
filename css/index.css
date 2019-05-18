@@ -335,3 +335,51 @@ footer {
   height: auto;
   border-radius: 10px;
 }
+.sign-up img {
+  max-width: 800px;
+  height: auto;
+  width: 100%;
+  border-radius: 5px;
+}
+.sign-up .mag-form h2 {
+  text-align: center;
+  padding: 10px;
+}
+.sign-up .mag-form form {
+  padding: 10px;
+}
+.sign-up .mag-form form .form-row {
+  margin-bottom: 10px;
+}
+.sign-up .mag-form form label,
+.sign-up .mag-form form legend,
+.sign-up .mag-form form select {
+  font-family: 'Ubuntu', sans-serif;
+  color: #5e6164;
+  font-size: 1.6rem;
+  padding: 5px;
+}
+.sign-up .mag-form form input,
+.sign-up .mag-form form select {
+  font-family: 'Ubuntu', sans-serif;
+  color: #5e6164;
+  font-size: 1.6rem;
+  padding: 5px;
+  border: 1px solid #23293b;
+  border-radius: 5px;
+}
+.sign-up .mag-form form button {
+  background-color: #22283a;
+  color: white;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 1.9rem;
+  border-radius: 5px;
+  text-align: center;
+  width: 30%;
+  padding: 8px;
+}
+.sign-up .mag-form form button:hover {
+  background-color: white;
+  color: #22283a;
+  border: 1px solid #22283a;
+}

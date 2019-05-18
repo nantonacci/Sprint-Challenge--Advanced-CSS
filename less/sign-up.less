@@ -1,0 +1,49 @@
+//sign-up styles
+
+.sign-up {
+  img {
+    max-width: 800px;
+    height: auto;
+    width: 100%;
+    border-radius: 5px;
+  }
+  .mag-form {
+    h2 {
+      text-align: center;
+      padding: 10px;
+    }
+    form {
+      padding: 10px;
+
+      .form-row {
+        margin-bottom: 10px;
+      }
+
+      label,
+      legend,
+      select {
+        font-family: 'Ubuntu', sans-serif;
+        color: @main-font-color;
+        font-size: 1.6rem;
+        padding: 5px;
+      }
+
+      input,
+      select {
+        font-family: 'Ubuntu', sans-serif;
+        color: @main-font-color;
+        font-size: 1.6rem;
+        padding: 5px;
+        border: 1px solid @ebony-clay;
+        border-radius: 5px;
+      }
+
+      button {
+        .button-style();
+      }
+      button:hover {
+        .button-hover;
+      }
+    }
+  } //mag-form
+} //sign-up
