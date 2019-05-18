@@ -17,11 +17,22 @@
       padding: 10px;
       .space-between;
       flex-wrap: wrap;
+
+      @media @phone {
+        flex-direction: column;
+        // justify-content: center;
+      }
       .left-form {
         width: 30%;
+        @media @phone {
+          width: 100%;
+        }
       }
       .right-form {
         width: 55%;
+        @media @phone {
+          width: 100%;
+        }
       }
       .form-row {
         margin-bottom: 10px;
@@ -47,7 +58,11 @@
       }
 
       button {
+        margin-top: 20px;
         .button-style();
+        @media @phone {
+          .button-style(100%, 25px);
+        }
       }
       button:hover {
         .button-hover;

@@ -355,11 +355,26 @@ footer {
   align-items: center;
   flex-wrap: wrap;
 }
+@media (max-width: 500px) {
+  .sign-up .mag-form form {
+    flex-direction: column;
+  }
+}
 .sign-up .mag-form form .left-form {
   width: 30%;
 }
+@media (max-width: 500px) {
+  .sign-up .mag-form form .left-form {
+    width: 100%;
+  }
+}
 .sign-up .mag-form form .right-form {
   width: 55%;
+}
+@media (max-width: 500px) {
+  .sign-up .mag-form form .right-form {
+    width: 100%;
+  }
 }
 .sign-up .mag-form form .form-row {
   margin-bottom: 10px;
@@ -382,6 +397,7 @@ footer {
   border-radius: 5px;
 }
 .sign-up .mag-form form button {
+  margin-top: 20px;
   background-color: #22283a;
   color: white;
   font-family: 'Ubuntu', sans-serif;
@@ -390,6 +406,18 @@ footer {
   text-align: center;
   width: 30%;
   padding: 8px;
+}
+@media (max-width: 500px) {
+  .sign-up .mag-form form button {
+    background-color: #22283a;
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1.9rem;
+    border-radius: 5px;
+    text-align: center;
+    width: 100%;
+    padding: 25px;
+  }
 }
 .sign-up .mag-form form button:hover {
   background-color: white;
