@@ -341,12 +341,25 @@ footer {
   width: 100%;
   border-radius: 5px;
 }
+.sign-up .mag-form {
+  margin: 20px 0 50px;
+}
 .sign-up .mag-form h2 {
   text-align: center;
   padding: 10px;
 }
 .sign-up .mag-form form {
   padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.sign-up .mag-form form .left-form {
+  width: 30%;
+}
+.sign-up .mag-form form .right-form {
+  width: 55%;
 }
 .sign-up .mag-form form .form-row {
   margin-bottom: 10px;

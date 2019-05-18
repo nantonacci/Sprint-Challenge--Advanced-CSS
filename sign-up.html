@@ -40,42 +40,52 @@
       <section class="mag-form">
         <h2>Sign Up for the SpaceWalkers Magazine!</h2>
         <form action="" method="get" class="magazine">
-          <div class="form-row">
-            <label for="full-name">Name</label>
-            <input id="full-name" name="full-name" type="text" />
+          <div class="left-form">
+            <div class="form-row">
+              <label for="full-name">Name</label>
+              <input
+                id="full-name"
+                name="full-name"
+                type="text"
+                placeholder="First Last"
+              />
+            </div>
+            <div class="form-row">
+              <label for="email">Email</label>
+              <input
+                id="email"
+                name="email"
+                type="email"
+                placeholder="you@youremail.com"
+              />
+            </div>
           </div>
-          <div class="form-row">
-            <label for="email">Email</label>
-            <input
-              id="email"
-              name="email"
-              type="email"
-              placeholder="you@youremail.com"
-            />
-          </div>
-          <fieldset class="form-row">
-            <legend>Would you like the magazine emailed?</legend>
-            <input
-              id="yes-email"
-              name="e-mag"
-              type="radio"
-              value="yes"
-              checked
-            />
-            <label for="yes-email" class="radio-label">Yes</label>
-            <input id="no-email" name="e-mag" type="radio" value="no" />
-            <label for="no-email" class="radio-label">No</label>
-          </fieldset>
-          <div class="form-row">
-            <label for="subscription">Subscription</label>
-            <select name="subscription" id="subscription">
-              <option value="1-mo">Single issue $6.00+shipping</option>
-              <option value="6-mo">Six-months $27, free shipping</option>
-              <option value="12-mo">One-year $40, free shipping</option>
-              <option value="24-mo"
-                >Two-year $60, free shipping PLUS exclusive travel mug!</option
-              >
-            </select>
+          <div class="right-form">
+            <fieldset class="form-row">
+              <legend>Would you like the magazine emailed?</legend>
+              <input
+                id="yes-email"
+                name="e-mag"
+                type="radio"
+                value="yes"
+                checked
+              />
+              <label for="yes-email" class="radio-label">Yes</label>
+              <input id="no-email" name="e-mag" type="radio" value="no" />
+              <label for="no-email" class="radio-label">No</label>
+            </fieldset>
+            <div class="form-row">
+              <label for="subscription">Subscription</label>
+              <select name="subscription" id="subscription">
+                <option value="1-mo">Single issue $6.00+shipping</option>
+                <option value="6-mo">Six-months $27, free shipping</option>
+                <option value="12-mo">One-year $40, free shipping</option>
+                <option value="24-mo"
+                  >Two-year $60, free shipping PLUS exclusive travel
+                  mug!</option
+                >
+              </select>
+            </div>
           </div>
           <div class="form-row">
             <label class="checkbox" for="blog">
