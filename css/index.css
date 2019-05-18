@@ -160,6 +160,29 @@ p {
   width: 100%;
   margin: 0 auto;
 }
+.navigation {
+  background-color: #F6F6F6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.navigation div h1 {
+  font-size: 4rem;
+  margin: 10px 0;
+  text-align: center;
+}
+.navigation div nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.navigation div nav a {
+  text-decoration: none;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 1.6rem;
+  color: #5E6164;
+  padding: 10px 16px;
+}
 footer {
   color: #22283B;
   background: #f4f4f4;
